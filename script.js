@@ -73,7 +73,7 @@ if (canvas && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   3. That's it — music starts the moment the user first taps/clicks anything.
 */
 (function () {
-    const SONG = { src: 'song.mp3', title: 'Your Song Here' };
+    const SONG = { src: 'Kita.mp3', title: 'Your Song Here' };
 
     const audio = new Audio(SONG.src);
     audio.volume = 0.7;
@@ -150,6 +150,7 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const PHOTOS = [
         'photo1.jpg','photo2.jpg','photo3.jpg','photo4.jpg',
         'photo5.jpg','photo6.jpg','photo7.png','photo8.png',
+        'photo9.jpg','photo10.jpg,'photo11.jpg'
     ];
 
     const POOL_SIZE     = 5;
