@@ -150,7 +150,7 @@ if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     const PHOTOS = [
         'photo1.jpg','photo2.jpg','photo3.jpg','photo4.jpg',
         'photo5.jpg','photo6.jpg','photo7.png','photo8.png',
-        'photo9.jpg','photo10.jpg,'photo11.jpg'
+        'photo9.jpg','photo10.jpg','photo11.jpg'
     ];
 
     const POOL_SIZE     = 5;
