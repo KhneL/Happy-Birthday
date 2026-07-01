@@ -73,7 +73,7 @@ if (canvas && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   3. That's it — music starts the moment the user first taps/clicks anything.
 */
 (function () {
-    const SONG = { src: 'Kita.mp3', title: 'Kita' };
+    const SONG = { src: 'kita.mp3', title: 'Kita' };
 
     const audio = new Audio(SONG.src);
     audio.volume = 0.7;
